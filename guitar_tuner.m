@@ -31,9 +31,9 @@ else
 end
 freq = (min(locs)*(Fs/2))/(N/2);
 
-figure, plot (f,P);
+figure, plot (f,P); %fft
 title (filename);
 xlabel('frequency');
 ylabel('Amplitude');
-figure, plot (y);
+figure, plot (y); %the input signal
 title (filename);
